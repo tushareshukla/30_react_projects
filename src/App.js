@@ -6,6 +6,7 @@ import Four from "./components/Four";
 import Five from "./components/Five";
 import Six from "./components/Six";
 import Seven from "./components/Seven";
+import Eight from "./components/Eight";
 
 export default function App() {
   return <div>
@@ -16,6 +17,6 @@ export default function App() {
     {/* <Five/> */}
     {/* <Six/> */}
     {/* <Seven/> */}
-    
+    <Eight/>
   </div>;
 }
