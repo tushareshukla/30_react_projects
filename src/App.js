@@ -7,6 +7,7 @@ import Five from "./components/Five";
 import Six from "./components/Six";
 import Seven from "./components/Seven";
 import Eight from "./components/Eight";
+import Nine from "./components/Nine";
 
 export default function App() {
   return <div>
@@ -17,6 +18,7 @@ export default function App() {
     {/* <Five/> */}
     {/* <Six/> */}
     {/* <Seven/> */}
-    <Eight/>
+    {/* <Eight/> */}
+    {/* <Nine/> */}
   </div>;
 }
