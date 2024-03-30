@@ -1,0 +1,10 @@
+.nav-list li {
+  border: 1px solid black; /* Add border around list items */
+  margin: 5px; /* Add margin to create space between list items */
+  padding: 10px; /* Add padding inside each list item */
+}
+.nav-list li a {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Change link color to black */
+  text-transform: capitalize;
+}
