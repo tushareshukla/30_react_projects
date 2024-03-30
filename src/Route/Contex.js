@@ -1,6 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
+import Home from "../components/Tenth_project_routes/Home";
+import About from "../components/Tenth_project_routes/About";
+import Contact from "../components/Tenth_project_routes/Contact";
+import Services from "../components/Tenth_project_routes/Services";
 import One from "../components/One";
 import Two from "../components/Two";
 import Three from "../components/Three";
@@ -50,7 +53,13 @@ export default function Context() {
         <Route path="/six" element={<Six />} />
         <Route path="/seven" element={<Seven />} />
         <Route path="/eight" element={<Eight />} />
-        <Route path="/nine/*" Component={Nine} />
+        <Route path="/nine" Component={Nine} />
+      
+          <Route path="/nine/home" element={<Home/>}></Route>
+          <Route path="/nine/about" element={<About/>}></Route>
+          <Route path="/nine/contact" element={<Contact/>}></Route>  
+          <Route path="/nine/services" element={<Services/>}></Route>
+
         <Route path="/ten" element={<Ten />} />
         <Route path="/eleven" element={<Eleven />} />
         <Route path="/twelve" element={<Twelve />} />

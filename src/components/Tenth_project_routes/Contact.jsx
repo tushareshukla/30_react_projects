@@ -1,7 +1,12 @@
 import React from 'react'
+// import Nav from '../../Route/Nav'
+import Nine from '../Nine'
 
 export default function Contact() {
   return (
-    <div>Contact</div>
+   
+    <div>
+       <Nine/>
+       Contact</div>
   )
 }
