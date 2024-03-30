@@ -8,3 +8,6 @@
   color: black; /* Change link color to black */
   text-transform: capitalize;
 }
+.nav-list :hover {
+  background-color: lightgray; /* Change background color on hover */
+}
