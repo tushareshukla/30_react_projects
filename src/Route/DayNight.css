@@ -1,0 +1,29 @@
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .day {
+    background-color: #fff; /* Day mode background color */
+    color: #000; /* Day mode text color */
+  }
+  
+  .night {
+    background-color: #000; /* Night mode background color */
+    color: #fff; /* Night mode text color */
+  }
+  
+  button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff; /* Button color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+  }
+  
